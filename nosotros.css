@@ -1,16 +1,12 @@
-/* RESET BÁSICO Y FUENTES */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 body {
     background-color: #aed8f2;
 }
-
-/* NAVBAR (Ajustado exactamente como la captura) */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -19,18 +15,15 @@ body {
     background-color: #ffffff;
     height: 60px;
 }
-
 .navbar .logo img {
     height: 45px;
     width: auto;
 }
-
 .navbar nav ul {
     display: flex;
     list-style: none;
     gap: 35px;
 }
-
 .navbar nav a {
     text-decoration: none;
     color: #000000;
@@ -38,21 +31,17 @@ body {
     font-weight: bold;
     letter-spacing: 0.5px;
 }
-
-/* 1. HERO ACERCA DE NOSOTROS */
 .about-hero {
     position: relative;
     width: 100%;
     height: 350px;
 }
-
 .about-hero .hero-bg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-
 .about-hero .hero-overlay {
     position: absolute;
     top: 0;
@@ -64,7 +53,6 @@ body {
     align-items: center;
     background: rgba(0, 0, 0, 0.15);
 }
-
 .about-hero .hero-overlay h1 {
     color: #ffffff;
     font-size: 15px;
@@ -72,18 +60,14 @@ body {
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
-
-/* 2. SECCIÓN NOSOTROS */
 .nosotros-section {
     width: 100%;
 }
-
 .nosotros-header {
-    background-color: #d2e8f5; /* Celeste claro superior */
+    background-color: #d2e8f5; 
     padding: 16px 10px;
     text-align: center;
 }
-
 .nosotros-header h2 {
     font-size: 14px;
     font-weight: bold;
@@ -91,21 +75,18 @@ body {
     letter-spacing: 1px;
     margin: 0;
 }
-
 .nosotros-container {
     display: flex;
     width: 100%;
     align-items: stretch;
 }
-
 .nosotros-text {
     width: 58%;
-    background-color: #bfe1f3; /* Fondo pastel exacto del texto */
+    background-color: #bfe1f3; 
     padding: 30px 25px 35px 25px;
     display: flex;
     align-items: center;
 }
-
 .nosotros-text p {
     font-size: 12.5px;
     line-height: 1.45;
@@ -113,26 +94,21 @@ body {
     text-align: left;
     margin: 0;
 }
-
 .nosotros-img {
     width: 42%;
 }
-
 .nosotros-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-}
-
-/* 3. BANNER INFERIOR ¿QUIENES SOMOS? */
+} 
 .quienes-somos-section {
     background-color: #aed8f2;
     padding: 40px 20px 50px 20px;
     text-align: center;
     width: 100%;
 }
-
 .quienes-somos-section h2 {
     font-size: 14px;
     font-weight: bold;
@@ -140,7 +116,6 @@ body {
     margin-bottom: 18px;
     letter-spacing: 0.8px;
 }
-
 .quienes-somos-section p {
     font-size: 12px;
     font-weight: bold;
