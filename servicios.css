@@ -1,0 +1,126 @@
+/* RESET GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    height: 60px;
+}
+
+.navbar .logo img {
+    height: 45px;
+    width: auto;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* 1. HERO NUESTROS SERVICIOS */
+.servicios-hero {
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+
+.servicios-hero .hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.servicios-hero .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.25); /* Sombra ligera para mejorar el contraste */
+}
+
+.servicios-hero .hero-overlay h1 {
+    color: #ffffff; /* Texto centrado y blanco */
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+/* 2. SECCIÓN OFRECEMOS */
+.ofrecemos-section {
+    width: 100%;
+}
+
+.ofrecemos-container {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.ofrecemos-card {
+    width: 58%;
+    background-color: #bce6e6; /* Color pastel verde agua/celeste exacto del diseño */
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ofrecemos-card h2 {
+    font-size: 13.5px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 22px;
+    letter-spacing: 0.5px;
+}
+
+.ofrecemos-card p {
+    font-size: 11.5px;
+    line-height: 1.45;
+    color: #000000;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.ofrecemos-card p:last-child {
+    margin-bottom: 0;
+}
+
+.ofrecemos-img {
+    width: 42%;
+}
+
+.ofrecemos-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
