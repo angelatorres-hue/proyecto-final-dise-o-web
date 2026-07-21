@@ -19,7 +19,6 @@ body {
     height: 45px;
     width: auto;
 }
-
 .navbar nav ul {
     display: flex;
     list-style: none;
