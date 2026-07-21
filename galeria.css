@@ -23,7 +23,6 @@ body {
     list-style: none;
     gap: 32px;
 }
-
 .navbar nav a {
     text-decoration: none;
     color: #000000;
