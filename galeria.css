@@ -14,12 +14,10 @@ body {
     padding: 10px 40px;
     background-color: #ffffff;
 }
-
 .navbar .logo img {
     height: 48px;
     width: auto;
 }
-
 .navbar nav ul {
     display: flex;
     list-style: none;
